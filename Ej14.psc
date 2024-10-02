@@ -1,14 +1,10 @@
 Algoritmo Ej14
-	Escribir 'Dame un número de tres cifras'
+	Escribir 'Dame un nÃºmero de tres cifras'
 	Leer n
-	// Obtengo el número de dos cifras
-	u<-trunc(n/1000)
-	d<-n%1000
-	ud<-trunc(d/100)
-	dd<-d%100
-	udd<-trunc(dd/10)
-	ddd<-dd%10
-	ni<-ddd*1000+udd*100+ud*10+u
+	// Obtengo el nÃºmero de dos cifras
+	u<-Trunc(n/10)
+	d<-n%10
+	ni<-d*10+u
 	// Cambio sus valores
-	Escribir 'El número invertido de ', n, ' es ', ni
+	Escribir 'El nÃºmero invertido de ', n, ' es ', ni
 FinAlgoritmo
