@@ -13,5 +13,8 @@ Algoritmo Ej17
 	ml<-trunc((stl%3600)/60)
 	sl<-ml%60
 	//Saco los tiempos de llegada
+	Si hl>23 Entonces
+		hl<-hl-24
+	Fin Si
 	Escribir "La hora exacta de llegada es " hl ":" ml ":" sl
 FinAlgoritmo	
